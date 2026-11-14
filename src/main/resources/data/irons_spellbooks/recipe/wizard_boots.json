@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B B",
+    "A A"
+  ],
+  "key": {
+    "A": {
+      "item": "artisan_of_mana:arcane_alloy"
+    },
+    "B": {
+      "item": "artisan_of_mana:elder_weave"
+    }
+  },
+  "result": {
+    "id": "irons_spellbooks:wizard_boots",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "artisan_of_mana:quiet_library_start_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "artisan_of_mana:quiet_library/entrance",
+        "processors": "irons_spellbooks:randomize_mud_bricks",
+        "projection": "rigid",
+        "element_type": "irons_spellbooks:individual_terrain_element"
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "irons_spellbooks:alchemist_cauldron_brew",
+  "base_fluid": {
+    "amount": 1000,
+    "id": "irons_spellbooks:timeless_slurry"
+  },
+  "byproduct": {
+    "id": "artisan_of_mana:elder_weave"
+  },
+  "input": {
+    "item": "irons_spellbooks:magic_cloth"
+  },
+  "results": []
+}

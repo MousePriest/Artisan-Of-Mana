@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "artisan_of_mana:quiet_library",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 179456323,
+    "spacing": 72,
+    "separation": 48,
+    "type": "minecraft:random_spread"
+  }
+}

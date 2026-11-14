@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:diamond"
+  },
+  "base": {
+    "item": "artisan_of_mana:flux_ingot"
+  },
+  "result": {
+    "count": 1,
+    "id": "artisan_of_mana:arcane_alloy"
+  },
+  "template": {
+    "item": "irons_spellbooks:arcane_essence"
+  }
+}

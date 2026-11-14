@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "artisan_of_mana:enchanted_bottle"
+    },
+    {
+      "item": "irons_spellbooks:ancient_knowledge_fragment"
+    }
+  ],
+  "result": {
+    "count": 8,
+    "id": "minecraft:experience_bottle"
+  }
+}

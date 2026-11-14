@@ -27,7 +27,8 @@ sourceSets.main.resources {
 }
 
 repositories {
-    // Add here additional repositories if required by some of the dependencies below.
+    maven { url = "https://cursemaven.com" }
+    maven { url = "https://maven.theillusivec4.top" }
 }
 
 base {
@@ -116,27 +117,22 @@ configurations {
 }
 
 dependencies {
-    // Example optional mod dependency with JEI
-    // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
-    // compileOnly "mezz.jei:jei-${mc_version}-common-api:${jei_version}"
-    // compileOnly "mezz.jei:jei-${mc_version}-neoforge-api:${jei_version}"
-    // We add the full version to localRuntime, not runtimeOnly, so that we do not publish a dependency on it
-    // localRuntime "mezz.jei:jei-${mc_version}-neoforge:${jei_version}"
+    //ISS Stuff
+    implementation "curse.maven:irons_spellbooks-855414:8680204"
+    implementation "curse.maven:irons_lib-1492763:8364894"
+    implementation "curse.maven:geckolib-neoforge-388172:8893490"
+    implementation "curse.maven:playeranimator-658587:6024462"
 
-    // Example mod dependency using a mod jar from ./libs with a flat dir repository
-    // This maps to ./libs/coolmod-${mc_version}-${coolmod_version}.jar
-    // The group id is ignored when searching -- in this case, it is "blank"
-    // implementation "blank:coolmod-${mc_version}:${coolmod_version}"
+    compileOnly "top.theillusivec4.curios:curios-neoforge:9.5.1+1.21.1:api"
+    runtimeOnly "top.theillusivec4.curios:curios-neoforge:9.5.1+1.21.1"
 
-    // Example mod dependency using a file as dependency
-    // implementation files("libs/coolmod-${mc_version}-${coolmod_version}.jar")
+    //-*-
 
-    // Example project dependency using a sister or child project:
-    // implementation project(":myproject")
+    implementation "curse.maven:photon-871522:8824095"
+    implementation "curse.maven:kilagraph-1579792:8941172"
+    implementation "curse.maven:ldlib-626676:8940836"
 
-    // For more info:
-    // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
-    // http://www.gradle.org/docs/current/userguide/dependency_management.html
+    implementation "curse.maven:databank-1181408:8039021"
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.

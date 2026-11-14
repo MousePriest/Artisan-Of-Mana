@@ -1,0 +1,36 @@
+{
+  "name": "artisan_of_mana:quiet_library/hallway_stone_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "artisan_of_mana:quiet_library/hallway/hallway_stone_2",
+        "processors": "irons_spellbooks:randomize_mud_bricks",
+        "projection": "rigid",
+        "element_type": "irons_spellbooks:individual_terrain_element",
+        "terrain_adjustment": "bury"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "artisan_of_mana:quiet_library/hallway/hallway_stone_4_left",
+        "processors": "irons_spellbooks:randomize_mud_bricks",
+        "projection": "rigid",
+        "element_type": "irons_spellbooks:individual_terrain_element",
+        "terrain_adjustment": "bury"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "artisan_of_mana:quiet_library/hallway/main_hall",
+        "processors": "irons_spellbooks:randomize_mud_bricks",
+        "projection": "rigid",
+        "element_type": "irons_spellbooks:individual_terrain_element",
+        "terrain_adjustment": "bury"
+      }
+    }
+  ]
+}

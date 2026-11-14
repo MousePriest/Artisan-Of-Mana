@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  B",
+    " B ",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "artisan_of_mana:arcane_alloy"
+    },
+    "B": {
+      "item": "artisan_of_mana:elder_weave"
+    }
+  },
+  "result": {
+    "id": "irons_spellbooks:wizard_hat",
+    "count": 1
+  }
+}
